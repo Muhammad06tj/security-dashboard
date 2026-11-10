@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cipher</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+	<form action="/caesar_cipher" method="post">
+		<label for="password">Caesar Cipher: </label><br>
+		<input type="text" id="text" name="text"><br>
+		<label for="password">"Сдвиг: </label><br>
+		<input type="text" id="number" name="number">
+		<input type="submit" value="Submit">
+	</form>
+	<a href="/">Назад</a>
+	<p>{{result}}</p>
+</body>
+</html>

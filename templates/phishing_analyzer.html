@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phishing Analyzer</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+	<form action="/phishing_analyzer" method="post">
+		<label for="password">Phishing Analyzer: </label><br>
+		<input type="text" id="url" name="link"><br>
+		<input type="submit" value="Submit">
+	</form>
+	<a href="/">Назад</a>
+	<p>{{result}}</p>
+</body>
+</html>

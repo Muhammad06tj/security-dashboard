@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phishing Email Headers</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+	<form action="/email_headers", method="post">
+		<label for="password">Phishing Email Headers: </label><br>
+		<input type="text" id="url" name="head"><br>
+		<input type="submit" value="Submit">
+	</form>
+	<a href="/">Назад</a>
+	<p>{{result}}</p>
+</body>
+</html>

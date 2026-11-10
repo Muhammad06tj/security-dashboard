@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File integrity monitor</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+	<form action="/file_integrity" method="post" enctype="multipart/form-data">
+		<label for="password">File integrity monitor: </label><br>
+		<input type="file" id="text" name="file">
+		<input type="text" id="url" name="hash"><br>
+		<input type="submit" value="Submit">
+	</form>
+	<a href="/">Назад</a>
+	<p>{{result}}</p>
+</body>
+</html>
